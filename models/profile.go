@@ -17,5 +17,5 @@ type Profile struct {
 		Extension string `json:"extension"`
 	} `json:"photos"`
 	LastModified   time.Time `json:"last_modified" bson:"last_modified"`
-	RecentlyActive bool      `json:"recently_active"`
+	RecentlyActive bool      `json:"recently_active" bson:"recently_active"`
 }
